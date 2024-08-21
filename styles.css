@@ -1,0 +1,182 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Styles for the sticky container at the top */
+.sticky-container {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sticky-image {
+    max-height: 40px; /* Reduced logo size */
+}
+
+.container-fluid {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand {
+    margin-right: 20px;
+    color: #39cf39; /* Green color for 'about us' */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Optional: make it bold */
+}
+
+.navbar-toggler {
+    margin-right: 20px;
+}
+
+.navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.nav-link {
+    color: #888888; /* Gray color for navigation links */
+    text-decoration: none; /* Remove underline */
+    font-weight: normal; /* Ensure links are not bold */
+}
+
+.nav-link.active {
+    color: #888888; /* Gray color for active link */
+}
+
+.relative-container {
+    text-align: center;
+    margin: 20px;
+}
+
+.lead__logo {
+    max-width: 80px; /* Reduced lead logo size */
+}
+
+.center {
+    text-align: center;
+    margin: 20px;
+    color: green;
+}
+
+/* Flexbox layout for paragraphs */
+.paragraphs {
+    display: flex; /* Use flexbox to align children side by side */
+    justify-content: space-between; /* Adjust spacing between blocks */
+    padding: 50px; /* Add padding around the container */
+}
+
+/* Base styling for blocks in the paragraphs container */
+.paragraphs .block  {
+    flex: 1; /* Blocks take up equal space */
+    margin: 10px; /* Margin around each block */
+    padding: 50px; /* Padding inside each block */
+    text-align: center; /* Center text inside blocks */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    border-radius: 8px; /* Rounded corners */
+    
+}
+
+/* Background colors for specific paragraph blocks */
+.blockblock4 {
+    background-color: #200cd7; /* Light red background */
+    color: #fff;
+    padding: 50px; /* Add padding around the container */
+
+
+
+
+
+    
+}
+
+.blockblock5 {
+    background-color: #000000; /* Light green background */
+    color: #fff;
+    padding: 50px; /* Add padding around the container */
+
+
+
+}
+
+
+.blockblock3 {
+    background-color: #99ffd8; /* Light blue background */
+    color: #fff;
+    padding: 50px; /* Add padding around the container */
+
+
+
+}
+
+/* Styles for the blocks container */
+.blocks-container {
+    display: flex;
+    justify-content: space-between; /* Distribute space evenly between blocks */
+    flex-wrap: wrap; /* Allow wrapping to the next line if needed */
+    gap: 20px; /* Space between blocks */
+    padding: 20px; /* Add padding around the container */
+}
+
+
+
+
+/* Ensure the last image container fits the layout */
+.containerlast-image {
+    width: 100%; /* Full width for the last container */
+    margin: 20px auto; /* Center the container */
+}
+
+/* Flexbox layout for images in rows */
+.image-container {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.image-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; /* Adjust spacing between images */
+}
+
+/* Adjusting container to fit 3 images per row */
+.container {
+    flex: 1 1 calc(33.333% - 15px); /* 3 images per row, accounting for gaps */
+    box-sizing: border-box;
+    background-color: #fff;
+    padding: 5px; /* Reduced padding for smaller containers */
+    border-radius: 6px; /* Slightly reduced border-radius */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); /* Reduced shadow */
+    text-align: center;
+}
+
+/* Ensure images fill the container properly */
+.container img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px; /* Adjust border-radius to match container */
+}
+
+/* Ensure the next button and text are properly aligned */
+.next {
+    margin-top: 8px; /* Reduced margin */
+}
+
+.final {
+    text-align: center;
+    margin: 20px;
+}
